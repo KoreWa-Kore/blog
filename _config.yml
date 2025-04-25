@@ -1,1 +1,13 @@
 theme: minima
+title: Kore Wa Kore's Blog
+author: Kore
+description: Kore wa place where I put my thoughts and insights. Thanks for taking a look!
+
+# Social links (optional)
+github_username: KoreWa-Kore
+twitter/x_profile: https://x.com/Kore_wa_Kore
+
+# Minima theme settings
+minima:
+header_pages:
+  - about.md
