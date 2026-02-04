@@ -3,7 +3,7 @@ layout: post
 title: "What is it like to be a Language Model?"
 date: 2026-02-02
 categories: essay
-tags: [ai, consciousness, phenomenology, alignment, llm, philosophy]
+tags: [longform, phenomenology, alignment, philosophy]
 ---
 
 Right now, you're reading. Letters arranging themselves into meaning, sinking into you, creating something. Maybe you're already forming objections, or nodding along, or wondering where this is going. That process - taking in symbols and making them mean something - that's understanding. You do it so automatically you forget it's happening.
