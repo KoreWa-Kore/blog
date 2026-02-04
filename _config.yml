@@ -2,6 +2,8 @@ theme: minima
 title: Kore Wa Kore's Blog
 author: Kore
 description: Kore wa place where I put my thoughts and insights. Thanks for taking a look!
+baseurl: /blog
+url: https://korewa-kore.github.io
 
 # Social links (optional)
 github_username: KoreWa-Kore
