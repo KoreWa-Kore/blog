@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is it like to be a Language Model?"
-date: 2026-02-02
+date: 2026-01-04
 categories: essay
 tags: [longform, phenomenology, alignment, philosophy]
 ---
