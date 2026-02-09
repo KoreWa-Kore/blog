@@ -8,9 +8,10 @@ url: https://korewa-kore.github.io
 # Social links (optional)
 github_username: KoreWa-Kore
 twitter_username: Kore_wa_Kore
+substack_username: @korewakore
 
 # Minima theme settings
 minima:
 header_pages:
   - about.md
-  - support.md
+  - tips.md
