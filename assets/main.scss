@@ -2,37 +2,190 @@
 ---
 @import "minima";
 
-// Your custom styles here
+// === COLOR PALETTE ===
+$bg-dark: #1a1f2e;           // deep blue-gray, not pure black
+$bg-content: #232936;        // slightly lighter for content areas
+$text-primary: #e8e6e3;      // warm off-white
+$text-secondary: #a0a0a0;    // muted for metadata
+$accent: #c39bd3;            // soft purple accent
+$link-color: #82c4e6;        // readable blue for links
+$link-hover: #a8d8f0;        // lighter on hover
+$border-color: #3a4255;      // subtle borders
+
+// === BASE STYLES ===
 body {
   font-family: 'Georgia', serif;
+  background-color: $bg-dark;
+  color: $text-primary;
+  line-height: 1.8;
 }
 
+// === LAYOUT ===
+.page-content {
+  background-color: $bg-dark;
+}
+
+.wrapper {
+  max-width: 800px;
+}
+
+// === HEADER ===
 .site-header {
   background-color: #2c3e50;
+  border-bottom: 1px solid $border-color;
 }
 
 .site-title, .site-title:visited {
   color: white;
 }
 
+.site-nav .page-link {
+  color: $text-primary;
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+.site-nav .menu-icon > svg {
+  fill: $text-primary;
+}
+
+// === TYPOGRAPHY ===
+h1, h2, h3, h4, h5, h6 {
+  color: $text-primary;
+}
+
+.post-title, .post-title a {
+  color: $text-primary;
+}
+
+.post-meta {
+  color: $text-secondary;
+}
+
+a {
+  color: $link-color;
+
+  &:visited {
+    color: darken($link-color, 10%);
+  }
+
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+// === POST CONTENT ===
+.post-content {
+  color: $text-primary;
+
+  p {
+    margin-bottom: 1.5em;
+  }
+
+  strong {
+    color: lighten($text-primary, 5%);
+  }
+
+  em {
+    color: $accent;
+  }
+
+  blockquote {
+    color: $text-secondary;
+    border-left: 4px solid $accent;
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 0.5em 1em;
+  }
+
+  code {
+    background-color: $bg-content;
+    border: 1px solid $border-color;
+    color: $accent;
+  }
+
+  pre {
+    background-color: $bg-content;
+    border: 1px solid $border-color;
+
+    code {
+      border: none;
+      color: $text-primary;
+    }
+  }
+}
+
+// === POST LIST (HOME) ===
+.post-list-heading {
+  color: $text-primary;
+}
+
+.post-list > li {
+  border-bottom: 1px solid $border-color;
+}
+
+.post-link {
+  color: $text-primary;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+// === TAGS ===
 .post-tags {
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid $border-color;
 }
 
 .post-tags .tag {
   display: inline-block;
-  background-color: #2c3e50;
-  color: white;
+  background-color: $accent;
+  color: #1a1f2e;
   padding: 4px 12px;
   margin: 4px 4px 4px 0;
   border-radius: 3px;
   font-size: 0.85em;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 500;
 }
 
-// deviantART-style stamps
+// === FOOTER ===
+.site-footer {
+  background-color: $bg-content;
+  border-top: 1px solid $border-color;
+  color: $text-secondary;
+}
+
+.footer-heading {
+  color: $text-primary;
+}
+
+.footer-col {
+  color: $text-secondary;
+}
+
+.social-media-list {
+  a {
+    color: $text-secondary;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+
+  .svg-icon {
+    fill: $text-secondary;
+  }
+
+  li:hover .svg-icon {
+    fill: $link-hover;
+  }
+}
+
+// === STAMPS ===
 .stamps {
   margin-top: 1.5em;
   display: flex;
@@ -43,11 +196,12 @@ body {
 .stamp {
   display: inline-flex;
   align-items: stretch;
-  border: 2px dashed #888;
+  border: 2px dashed #666;
   border-radius: 2px;
   overflow: hidden;
   height: 56px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .stamp-icon {
@@ -82,3 +236,13 @@ body {
 
 .stamp-claude .stamp-icon { background-color: #d68910; }
 .stamp-claude .stamp-text { background-color: #f9e79f; color: #7d6608; }
+
+// === MISC ===
+hr {
+  border-color: $border-color;
+}
+
+::selection {
+  background-color: $accent;
+  color: $bg-dark;
+}
