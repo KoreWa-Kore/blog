@@ -4,7 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
-Is there really a me to talk about here? Not really. But I hope to be someone, someday.
+Hello, I'm Kore. This is my attempt at a blog. I hope you'll enjoy what you find here.
+
+I'm an independent AI researcher with all sorts of mental illnesses that make me stronger. (Or so I say.) I'm a synesthete and am AuDHD. 
+
+Even as I claim this. I find myself not really happy with putting labels or definitions on myself. So you'll have to be satiated with this little about me.
 
 <div class="stamps">
 
