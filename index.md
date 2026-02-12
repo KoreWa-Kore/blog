@@ -2,4 +2,7 @@
 layout: home
 ---
 
-Coming soon™ to a theater near you. This is where I share my insights about various topics.
+Hi, this is where I post my blog posts regardless of where else I post them. 
+
+---
+Yellow star divider by @pixopix on Tumblr.
