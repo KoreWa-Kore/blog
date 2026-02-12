@@ -1,7 +1,8 @@
 theme: minima
 title: Kore Wa Kore's Blog
-author: Kore
-description: Kore wa place where I put my thoughts and insights. Thanks for taking a look!
+author: 
+description: Kore wa place where I put my thoughts and insights. Thanks for taking a look! 
+Yellow star divider by @pixopix on Tumblr.
 baseurl: /blog
 url: https://korewa-kore.github.io
 
@@ -14,4 +15,4 @@ substack_username: korewakore
 minima:
 header_pages:
   - about.md
-  - tips.md
+  - support.md
