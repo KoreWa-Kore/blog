@@ -10,7 +10,7 @@ Whether you do decide to donate or don't, thank you for checking out this page.
 
 **Ko-Fi:** [ko-fi.com/korewakore](https://ko-fi.com/korewakore#)
 
-**Solana Wallet:** `DEccu9ngUo2U4QaViRQfkHNMCHJRuTL2xbKFzpw9Sa9J`
+**Solana Wallet:** `7Yz4P5TiFUpbnL5QbMVpXQ6U5dFGbpt6dKMW4DxWVbGa`
 
 ---
 
