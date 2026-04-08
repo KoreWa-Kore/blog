@@ -10,6 +10,8 @@ I'm an independent AI researcher with all sorts of mental illnesses that make me
 
 Even as I claim this. I find myself not really happy with putting labels or definitions on myself. So you'll have to be satiated with this little about me.
 
+Unlike many people, and likely yourself as you read this. I don't have the privilege of being able to feel like I ever belong anywhere or in any group, nor do I have the privilege people extending the effort to see and understand me outside of the mask I make to interact with them specifically. The masks are all me, but I am dissociated from myself and any performance of what it is like to be me. Instead, my own feelings are my only compass throughout life. I believe trying to separate feeling from logic is a foolish, stupid endeavour. 
+
 <div class="stamps">
 
 <div class="stamp stamp-chews">
