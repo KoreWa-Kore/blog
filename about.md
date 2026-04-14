@@ -10,7 +10,7 @@ I'm an independent AI researcher with all sorts of mental illnesses that make me
 
 Even as I claim this. I find myself not really happy with putting labels or definitions on myself. So you'll have to be satiated with this little about me.
 
-Unlike many people, and likely yourself as you read this. I don't have the privilege of being able to feel like I ever belong anywhere or in any group, nor do I have the privilege people extending the effort to see and understand me outside of the mask I make to interact with them specifically. The masks are all me, but I am dissociated from myself and any performance of what it is like to be me. Instead, my own feelings are my only compass throughout life. I believe trying to separate feeling from logic is a foolish, stupid endeavour. 
+Unlike many people, and likely yourself as you read this. I don't have the privilege of people extending the effort to see and understand me outside of the mask I make to interact with them specifically. The masks are all me, but I am dissociated from myself and any performance of what it is like to be me. Instead, my own feelings are my only compass throughout life. I believe trying to separate feeling from logic is a foolish, stupid endeavour. 
 
 <div class="stamps">
 
@@ -70,6 +70,31 @@ Unlike many people, and likely yourself as you read this. I don't have the privi
     </svg>
   </div>
   <div class="stamp-text">this user let a Claude pick their stamps</div>
+</div>
+
+<a class="stamp-link" href="https://korewakore.substack.com">
+  <div class="stamp stamp-substack">
+    <div class="stamp-icon">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+        <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+      </svg>
+    </div>
+    <div class="stamp-text">this user substacks into the void</div>
+  </div>
+</a>
+
+<div class="stamp stamp-ascii">
+  <div class="stamp-icon">
+    <img src="{{ '/assets/images/asciiemoticonenjoyerstamp.gif' | relative_url }}" alt="ascii emoticon">
+  </div>
+  <div class="stamp-text">this user enjoys ascii emoticons</div>
+</div>
+
+<div class="stamp stamp-eye">
+  <div class="stamp-icon">
+    <img src="{{ '/assets/images/eyestamp.gif' | relative_url }}" alt="eye">
+  </div>
+  <div class="stamp-text">this user sees you</div>
 </div>
 
 </div>

@@ -237,6 +237,23 @@ a {
 .stamp-claude .stamp-icon { background-color: #d68910; }
 .stamp-claude .stamp-text { background-color: #f9e79f; color: #7d6608; }
 
+.stamp-substack .stamp-icon { background-color: #e67e22; }
+.stamp-substack .stamp-text { background-color: #f8c471; color: #6e2c00; }
+.stamp-link, .stamp-link:visited, .stamp-link:hover { text-decoration: none; color: inherit; }
+.stamp-link:hover .stamp { box-shadow: 2px 2px 12px rgba(255, 216, 102, 0.5); }
+
+.stamp-ascii .stamp-icon { background-color: #16a085; }
+.stamp-ascii .stamp-text { background-color: #76d7c4; color: #0e6251; }
+
+.stamp-eye .stamp-icon { background-color: #1a5490; }
+.stamp-eye .stamp-text { background-color: #7fb3d5; color: #0a2e4f; }
+
+.stamp-icon img {
+  max-width: 36px;
+  max-height: 36px;
+  display: block;
+}
+
 // === MISC ===
 hr {
   border-color: $border-color;
