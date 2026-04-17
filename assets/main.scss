@@ -255,17 +255,24 @@ a {
 }
 
 // === STAR SIDEBAR ===
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 100vh;
-  background: url('/blog/assets/images/stars.gif') repeat-y 0 0;
-  z-index: 100;
-  pointer-events: none;
-  opacity: 0.9;
+// Rotates the horizontal stars.gif 90° so sparkles scatter vertically,
+// positioned just left of the content column
+@media (min-width: 1000px) {
+  body::before {
+    content: '';
+    position: fixed;
+    left: calc(50% - 420px);
+    top: 0;
+    width: 100vh;
+    height: 50px;
+    background: url('/blog/assets/images/stars.gif') repeat-x 0 center;
+    background-size: auto 100%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0.85;
+  }
 }
 
 // === MISC ===
