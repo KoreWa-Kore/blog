@@ -254,6 +254,20 @@ a {
   display: block;
 }
 
+// === STAR SIDEBAR ===
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100vh;
+  background: url('/blog/assets/images/stars.gif') repeat-y 0 0;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
 // === MISC ===
 hr {
   border-color: $border-color;
